@@ -19,7 +19,7 @@ const Education = () => {
                         {/* Right Image (now first) */}
                         <div className="flex justify-center md:justify-start">
                             <div className="w-full max-w-sm md:max-w-md lg:max-w-lg bg-green-50 rounded-xl p-3 shadow-md animate-float">
-                                <img src="public/images/user_1.jpg"
+                                <img src="./images/user_1.jpg"
                                     alt="About photo"
                                     className="w-full h-auto rounded-lg object-cover"
                                 />
@@ -38,7 +38,7 @@ const Education = () => {
 
                             {/* Buttons */}
                             <div className="mt-8 flex flex-col sm:flex-row sm:gap-4 justify-center md:justify-start">
-                                <a href="https://github.com/devsheikhalamin" className="px-6 py-3 bg-purple-500 text-white rounded-md shadow-sm hover:bg-purple-600 transition">
+                                <a href="https://github.com/" className="px-6 py-3 bg-purple-500 text-white rounded-md shadow-sm hover:bg-purple-600 transition">
                                     My GitHub
                                 </a>
                                 <button className="mt-3 sm:mt-0 px-6 py-3 bg-white text-gray-800 rounded-md border border-gray-300 shadow-sm hover:bg-gray-100 transition">
