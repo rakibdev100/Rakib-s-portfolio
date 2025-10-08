@@ -114,7 +114,7 @@ const Footer = () => {
                                 <img src={linkedinIcon} alt="LinkedIn" className="h-5 w-5" />
                             </a>
                             <a
-                                href="https://github.com/"
+                                href="https://github.com/rakibdev100"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:border-blue-400"
