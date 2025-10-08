@@ -106,7 +106,7 @@ const Footer = () => {
                                 <img src={twitterIcon} alt="Twitter" className="h-5 w-5" />
                             </a>
                             <a
-                                href="https://linkedin.com/in/tajul-islam-b4803a378"
+                                href="https://www.linkedin.com/feed/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:border-blue-400"
@@ -114,7 +114,7 @@ const Footer = () => {
                                 <img src={linkedinIcon} alt="LinkedIn" className="h-5 w-5" />
                             </a>
                             <a
-                                href="https://github.com/tajulislamdev"
+                                href="https://github.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:border-blue-400"
