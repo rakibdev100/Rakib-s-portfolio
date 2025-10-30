@@ -2,7 +2,7 @@ import Project1 from "../assets/images/jobplace1.jpg";
 import Project2 from "../assets/images/jobplace2.jpg";
 import Project3 from "../assets/images/jobplace3.avif";
 
-const WorkPlace = () => {
+const WorkPlacePage = () => {
   return (
     <section className="px-4 py-12 sm:px-6 lg:px-8  bg-blue-100">
       <div className="mx-auto max-w-7xl">
@@ -171,4 +171,4 @@ const WorkPlace = () => {
   );
 };
 
-export default WorkPlace;
+export default WorkPlacePage;

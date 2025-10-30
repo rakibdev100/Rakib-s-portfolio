@@ -1,5 +1,5 @@
-import skillImage from "../assets/images/rakibpro1.jpg";
-const Skills = () => {
+
+const SkillPage = () => {
     return (
         <section id="skills" className="flex items-center justify-center py-12  bg-blue-50">
             <div className="w-full max-w-4xl text-center px-6">
@@ -85,28 +85,26 @@ const Skills = () => {
                         <span className="text-gray-300">Git</span>
                     </div>
                 </div>
-                <div className=" mt-4 block rounded-md border border-gray-300 p-4 shadow-sm sm:p-6">
+                 <div className=" mt-4 block rounded-md border border-gray-300 p-4 shadow-sm sm:p-6">
                     <div className="sm:flex sm:justify-between sm:gap-4 lg:gap-6">
                         <div className="sm:order-last sm:shrink-0">
                             <img
                                 alt="Author"
-                                src={skillImage}
+                                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1180&amp;q=80"
                                 className="size-16 rounded-full object-cover sm:size-[72px]"
                             />
                         </div>
 
                         <div className="mt-4 sm:mt-0">
                             <h3 className="text-lg font-medium text-pretty text-gray-900">
-                                HTML, CSS, JavaScript, React.js, Next.js, TailwindCSS, Node.js, git all are my skills.  I build my first portfolio website with these.
+                                How I built my first website with Nuxt, Tailwind CSS and Vercel
                             </h3>
 
-                            <p className="mt-1 text-sm text-gray-700">By Rakibul hasan</p>
+                            <p className="mt-1 text-sm text-gray-700">By John Doe</p>
 
                             <p className="mt-4 line-clamp-2 text-sm text-pretty text-gray-700">
-                                Hi there! 
-I’m a passionate Web Developer, and I love creating modern, responsive, and user-friendly websites.
-If you’re looking to have your portfolio website built, I’d be happy to design and develop one for you clean, fast, and fully customized to match your style and goals.
-Let’s work together and bring your online presence to life!
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit
+                                illum provident a, ipsa maiores deleniti consectetur nobis et eaque.
                             </p>
                         </div>
                     </div>
@@ -137,7 +135,7 @@ Let’s work together and bring your online presence to life!
                                     />
                                 </svg>
                             </dt>
-                            <dd className="text-xs text-gray-700">30/10/2025</dd>
+                            <dd className="text-xs text-gray-700">31/06/2025</dd>
                         </div>
 
                         <div className="flex items-center gap-2">
@@ -175,4 +173,4 @@ Let’s work together and bring your online presence to life!
     );
 };
 
-export default Skills;
+export default SkillPage;

@@ -1,73 +1,85 @@
 import { useState } from "react";
+import { Link } from "react-router-dom"; // ✅ Correct import
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="lg:px-16 px-4 bg-neutral-200 flex flex-wrap items-center py-1 shadow-md top-0 left-0 right-0 fixed z-20">
-            {/* Logo */}
-            <div className="flex-1 flex justify-between items-center">
-                <a
-                    href="#"
-                    className="text-xl font-bold text-amber-700 text-[26px] hover:text-blue-500"
+        <nav className="fixed top-0 left-0 right-0 z-20 bg-neutral-200 shadow-md py-2 px-4 lg:px-16">
+            <div className="flex flex-wrap items-center justify-between mx-auto max-w-screen-xl">
+                {/* Logo */}
+                <Link
+                    to="/"
+                    className="text-2xl font-bold text-blue-700 hover:text-blue-500 transition-colors duration-200"
                 >
                     Portfolio
-                </a>
+                </Link>
 
-                {/* Mobile menu button */}
+                {/* Mobile Menu Button */}
                 <button
-                    className="md:hidden block text-gray-900 focus:outline-none"
                     onClick={() => setIsOpen(!isOpen)}
+                    className="md:hidden block text-gray-900 focus:outline-none"
+                    aria-label="Toggle Menu"
                 >
                     <svg
-                        className="fill-current"
+                        className="w-6 h-6 fill-current"
                         xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
                         viewBox="0 0 20 20"
                     >
                         {isOpen ? (
-                            <path d="M6 6L14 14M6 14L14 6" /> // X icon
+                            // X icon
+                            <path d="M6 6L14 14M6 14L14 6" stroke="black" strokeWidth="2" strokeLinecap="round" />
                         ) : (
-                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /> // Menu icon
+                            // Menu icon
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                         )}
                     </svg>
                 </button>
-            </div>
 
-            {/* Menu Items */}
-            <div
-                className={`${isOpen ? "block" : "hidden"
-                    } w-full md:flex md:items-center md:w-auto`}
-            >
-                <ul className="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0 text-[20px] font-bold">
-                    <li>
-                        <a
-                            className="md:p-4 py-3 px-0 block hover:text-blue-500 text-blue-500"
-                            href="#"
-                        >
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a className="md:p-4 py-3 px-0 block hover:text-blue-500" href="#about">
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a className="md:p-4 py-3 px-0 block hover:text-blue-500" href="#skills">
-                            My Skills
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            className="md:p-4 py-3 px-0 block md:mb-0 mb-2 hover:text-blue-500"
-                            href="#Contuct me"
-                        >
-                            Contact Me
-                        </a>
-                    </li>
-                </ul>
+                {/* Nav Links */}
+                <div
+                    className={`${isOpen ? "block" : "hidden"} 
+                    w-full md:flex md:items-center md:w-auto transition-all duration-300 ease-in-out`}
+                >
+                    <ul className="flex flex-col md:flex-row items-center gap-3 md:gap-6 text-lg font-semibold text-gray-700 mt-4 md:mt-0">
+                        <li>
+                            <Link
+                                to="/"
+                                className="block py-2 md:py-0 hover:text-blue-500 text-blue-600 transition-colors"
+                                onClick={() => setIsOpen(false)}
+                            >
+                                Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to="/about"
+                                className="block py-2 md:py-0 hover:text-blue-500 transition-colors"
+                                onClick={() => setIsOpen(false)}
+                            >
+                                About
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to="/skills"
+                                className="block py-2 md:py-0 hover:text-blue-500 transition-colors"
+                                onClick={() => setIsOpen(false)}
+                            >
+                                My Skills
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to="/work-place"
+                                className="block py-2 md:py-0 hover:text-blue-500 transition-colors"
+                                onClick={() => setIsOpen(false)}
+                            >
+                                Work Place
+                            </Link>
+                        </li>                      
+                    </ul>
+                </div>
             </div>
         </nav>
     );

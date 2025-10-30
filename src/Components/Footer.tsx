@@ -1,5 +1,4 @@
 import fbIcon from "../assets/images/facebook.png";
-import twitterIcon from "../assets/images/twitter.png";
 import linkedinIcon from "../assets/images/linkedin.png";
 import githubIcon from "../assets/images/github.png";
 import emailIcon from "../assets/images/email.png";
@@ -29,7 +28,7 @@ const Footer = () => {
     };
 
     return (
-        <motion.footer id="Contuct me"
+        <motion.footer id="Contact me"
             className="bg-[#3c3c40] text-gray-400 bottom-0 left-0 right-0 z-10"
             variants={container}
             initial="hidden"
@@ -45,7 +44,7 @@ const Footer = () => {
                     >
                         <a href="/" className="block mb-4">
                             <span className="text-2xl font-medium text-white">
-                                Tajul Islam Portfolio
+                                Rakibul Hasan Portfolio
                             </span>
                         </a>
                         <p className="text-sm md:text-base text-gray-200 leading-relaxed">
@@ -98,14 +97,6 @@ const Footer = () => {
                                 <img src={fbIcon} alt="Facebook" className="h-5 w-5" />
                             </a>
                             <a
-                                href="https://x.com/TajulIslam43453"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:border-blue-400"
-                            >
-                                <img src={twitterIcon} alt="Twitter" className="h-5 w-5" />
-                            </a>
-                            <a
                                 href="https://www.linkedin.com/feed/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -122,7 +113,7 @@ const Footer = () => {
                                 <img src={githubIcon} alt="GitHub" className="h-5 w-5" />
                             </a>
                             <a
-                                href="mailto:developer.tajulislam@gmail.com"
+                                href="rakibdev100@gmail.com"
                                 className="flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:border-blue-400"
                             >
                                 <img src={emailIcon} alt="Email" className="h-5 w-5" />
@@ -136,7 +127,7 @@ const Footer = () => {
                             </p>
                             <p className="flex items-center text-white">
                                 <img src={emailIcon} alt="Email" className="h-4 w-4 mr-2" />
-                                devrakib100@gmail.com
+                                rakibdev100@gmail.com
                             </p>
                             <p className="flex items-center text-white">
                                 <img src={locationIcon} alt="Location" className="h-4 w-4 mr-2" />
@@ -152,7 +143,7 @@ const Footer = () => {
                 variants={item}
                 className="bg-indigo-700 py-3 text-gray-100 text-center"
             >
-                <p className="text-sm">Designed with ❤ by Rakibul Hasan.</p>
+                <p className="text-sm">Designed by Rakibul Hasan.</p>
             </motion.div>
         </motion.footer>
     );
