@@ -30,7 +30,7 @@ const Footer = () => {
     return (
         <motion.footer id="Contact me"
             className="bg-[#3c3c40] text-gray-400 bottom-0 left-0 right-0 z-10"
-            variants={container}
+            // variants={container}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
