@@ -20,7 +20,7 @@ const WorkPlacePage = () => {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {/* Project 1 */}
           <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
-            <div className="h-48 overflow-hidden bg-blue-500">
+            <div className=" overflow-hidden bg-blue-500">
               <img
                 src={Project1}
                 alt="Project 1"
@@ -66,7 +66,7 @@ const WorkPlacePage = () => {
 
           {/* Project 2 */}
           <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
-            <div className="h-48 overflow-hidden bg-green-500">
+            <div className=" overflow-hidden bg-green-500">
               <img
                 src={Project2}
                 alt="Project 2"
@@ -112,7 +112,7 @@ const WorkPlacePage = () => {
 
           {/* Project 3 */}
           <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
-            <div className="h-48 overflow-hidden bg-purple-500">
+            <div className="overflow-hidden bg-purple-500">
               <img
                 src={Project3}
                 alt="Project 3"

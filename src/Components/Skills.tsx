@@ -103,10 +103,10 @@ const Skills = () => {
                             <p className="mt-1 text-sm text-gray-700">By Rakibul hasan</p>
 
                             <p className="mt-4 line-clamp-2 text-sm text-pretty text-gray-700">
-                                Hi there! 
-I’m a passionate Web Developer, and I love creating modern, responsive, and user-friendly websites.
-If you’re looking to have your portfolio website built, I’d be happy to design and develop one for you clean, fast, and fully customized to match your style and goals.
-Let’s work together and bring your online presence to life!
+                                Hi there!
+                                I’m a passionate Web Developer, and I love creating modern, responsive, and user-friendly websites.
+                                If you’re looking to have your portfolio website built, I’d be happy to design and develop one for you clean, fast, and fully customized to match your style and goals.
+                                Let’s work together and bring your online presence to life!
                             </p>
                         </div>
                     </div>

@@ -5,43 +5,13 @@ import emailIcon from "../assets/images/email.png";
 import phoneIcon from "../assets/images/phone.png";
 import locationIcon from "../assets/images/location.png";
 
-import { motion } from "framer-motion";
-
 const Footer = () => {
-    // Animation Variants
-    const container = {
-        hidden: { opacity: 0, y: 40 },
-        show: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                staggerChildren: 0.2,
-                duration: 0.6,
-                ease: ["easeOut"],
-            },
-        },
-    };
-
-    const item = {
-        hidden: { opacity: 0, y: 20 },
-        show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-    };
-
     return (
-        <motion.footer id="Contact me"
-            className="bg-[#3c3c40] text-gray-400 bottom-0 left-0 right-0 z-10"
-            // variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-        >
+        <footer id="Contact me" className="bg-[#3c3c40] text-gray-400 bottom-0 left-0 right-0 z-10">
             <div className="container mx-auto py-8 px-4">
                 <div className="flex flex-wrap justify-start items-start gap-8">
                     {/* Portfolio Info */}
-                    <motion.div
-                        variants={item}
-                        className="w-full sm:w-auto lg:flex-1 ml-0 lg:ml-20"
-                    >
+                    <div className="w-full sm:w-auto lg:flex-1 ml-0 lg:ml-20">
                         <a href="/" className="block mb-4">
                             <span className="text-2xl font-medium text-white">
                                 Rakibul Hasan Portfolio
@@ -54,13 +24,10 @@ const Footer = () => {
                             </span>{" "}
                             to stay updated on my latest projects and developments.
                         </p>
-                    </motion.div>
+                    </div>
 
                     {/* Quick Links */}
-                    <motion.div
-                        variants={item}
-                        className="w-full sm:w-auto lg:flex-1 lg:ml-36 mt-6 sm:mt-0"
-                    >
+                    <div className="w-full sm:w-auto lg:flex-1 lg:ml-36 mt-6 sm:mt-0">
                         <h2 className="text-xl pb-1 mb-3 border-b-4 border-blue-600 inline-block font-medium text-white">
                             Quick Links
                         </h2>
@@ -77,13 +44,10 @@ const Footer = () => {
                                 </li>
                             ))}
                         </ul>
-                    </motion.div>
+                    </div>
 
                     {/* Connect Me */}
-                    <motion.div
-                        variants={item}
-                        className="w-full sm:w-auto lg:flex-1 mt-6 sm:mt-0"
-                    >
+                    <div className="w-full sm:w-auto lg:flex-1 mt-6 sm:mt-0">
                         <h2 className="text-xl pb-1 mb-3 border-b-4 border-blue-600 inline-block font-medium text-white">
                             Connect Me
                         </h2>
@@ -113,7 +77,7 @@ const Footer = () => {
                                 <img src={githubIcon} alt="GitHub" className="h-5 w-5" />
                             </a>
                             <a
-                                href="rakibdev100@gmail.com"
+                                href="mailto:rakibdev100@gmail.com"
                                 className="flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:border-blue-400"
                             >
                                 <img src={emailIcon} alt="Email" className="h-5 w-5" />
@@ -134,18 +98,15 @@ const Footer = () => {
                                 Dhaka, Bangladesh
                             </p>
                         </div>
-                    </motion.div>
+                    </div>
                 </div>
             </div>
 
             {/* Bottom Bar */}
-            <motion.div
-                variants={item}
-                className="bg-indigo-700 py-3 text-gray-100 text-center"
-            >
+            <div className="bg-indigo-700 py-3 text-gray-100 text-center">
                 <p className="text-sm">Designed by Rakibul Hasan.</p>
-            </motion.div>
-        </motion.footer>
+            </div>
+        </footer>
     );
 };
 
