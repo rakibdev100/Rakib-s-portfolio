@@ -29,24 +29,6 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    <div className="max-w-xs">
-                        <h2 className="text-xl pb-1 mb-4 border-b-4 border-blue-600 inline-block font-medium text-white">
-                            Quick Links
-                        </h2>
-                        <ul className="space-y-2 text-sm">
-                            {["Home", "About", "Education", "Contact"].map((link) => (
-                                <li key={link} className="flex justify-center lg:justify-start items-center">
-                                    <span className="mr-2 text-white">➤</span>
-                                    <a
-                                        href="#"
-                                        className="hover:text-amber-500 font-medium text-white transition-colors duration-200"
-                                    >
-                                        {link}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
 
                     <div className="max-w-sm">
                         <h2 className="text-xl pb-1 mb-4 border-b-4 border-blue-600 inline-block font-medium text-white">

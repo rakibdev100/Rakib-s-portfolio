@@ -28,7 +28,7 @@ const Hero = () => {
     }, [index, isDeleting]);
 
     return (
-        <section className=" bg-blue-50 flex flex-col-reverse items-center justify-center max-w-screen-xl px-6 mx-auto py-10 mt-3 md:flex-row md:py-16">
+        <section className="flex flex-col-reverse items-center justify-center max-w-screen-xl px-6 mx-auto py-10 mt-3 md:flex-row md:py-16">
             <div className="w-full text-center md:w-1/2 md:text-left mt-8 md:mt-0 flex flex-col justify-center min-h-[420px]">
                 <h2 className="text-4xl font-extrabold leading-tight text-gray-800">
                     Hello I'm{" "}
