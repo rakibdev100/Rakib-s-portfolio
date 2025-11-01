@@ -6,17 +6,15 @@ const AboutPage = () => {
             <section id="about" className="via-yellow-50 to-orange-50 py-20 bg-blue-50">
                 <div className="max-w-screen-xl mx-auto px-6">
 
-                    {/* About Me Heading */}
                     <div className="text-center mb-12">
                         <h1 className="text-[33px] sm:text-[35px] font-extrabold text-blue-500">
                             About Me
                         </h1>
                     </div>
 
-                    {/* Content */}
+
                     <div className="flex flex-col md:flex-row-reverse items-center gap-12">
 
-                        {/* Image Section */}
                         <div className="flex justify-center md:justify-start w-full md:w-1/2">
                             <div className="w-full max-w-sm md:max-w-md lg:max-w-lg bg-blue-50 rounded-xl p-3 shadow-md">
                                 <img
@@ -26,8 +24,6 @@ const AboutPage = () => {
                                 />
                             </div>
                         </div>
-
-                        {/* Text Section */}
                         <div className="flex-1 text-center md:text-left">
                             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
                                 I am <span className="text-blue-500">Web Developer</span>
@@ -48,7 +44,6 @@ const AboutPage = () => {
                                 feels as exciting as the first.
                             </p>
 
-                            {/* Buttons */}
                             <div className="mt-8 flex flex-col sm:flex-row sm:gap-4 justify-center md:justify-start">
                                 <a
                                     href="https://github.com/"

@@ -6,7 +6,7 @@ const WorkPlace = () => {
   return (
     <section className="px-4 py-12 sm:px-6 lg:px-8  bg-blue-100">
       <div className="mx-auto max-w-7xl">
-        {/* Section Header */}
+
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             My Work Place
@@ -16,10 +16,10 @@ const WorkPlace = () => {
           </p>
         </div>
 
-        {/* Projects Grid */}
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {/* Project 1 */}
-          <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
+          <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:-translate-y-2 hover:border-indigo-600 border-2 border-transparent 
+               ease-in-out group">
             <div className="overflow-hidden bg-blue-500">
               <img
                 src={Project1}
@@ -64,8 +64,8 @@ const WorkPlace = () => {
             </div>
           </div>
 
-          {/* Project 2 */}
-          <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
+          <div className="overflow-hidden rounded-lg bg-white shadow-md hover:-translate-y-2 hover:border-indigo-600 border-2 border-transparent 
+              transition-all duration-300 ease-in-out group">
             <div className=" overflow-hidden bg-green-500">
               <img
                 src={Project2}
@@ -110,8 +110,8 @@ const WorkPlace = () => {
             </div>
           </div>
 
-          {/* Project 3 */}
-          <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
+          <div className="overflow-hidden rounded-lg bg-white shadow-md hover:-translate-y-2 hover:border-indigo-600 border-2 border-transparent 
+              transition-all duration-300 ease-in-out group">
             <div className="overflow-hidden bg-purple-500">
               <img
                 src={Project3}
@@ -155,16 +155,6 @@ const WorkPlace = () => {
               </a>
             </div>
           </div>
-        </div>
-
-        {/* View More Button */}
-        <div className="mt-12 text-center">
-          <a
-            href="#"
-            className="inline-flex items-center rounded-md border border-transparent bg-blue-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-blue-700"
-          >
-            View all projects
-          </a>
         </div>
       </div>
     </section>

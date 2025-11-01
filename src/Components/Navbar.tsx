@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { Link } from "react-router-dom"; // ✅ Correct import
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-20 bg-neutral-200 shadow-md py-2 px-4 lg:px-16">
+        <nav className="fixed top-0 left-0 right-0 z-20 bg-neutral-100 shadow-md py-2 px-4 lg:px-16">
             <div className="flex flex-wrap items-center justify-between mx-auto max-w-screen-xl">
-                {/* Logo */}
+
                 <Link
                     to="/"
                     className="text-2xl font-bold text-blue-700 hover:text-blue-500 transition-colors duration-200"
@@ -15,7 +15,7 @@ const Navbar = () => {
                     Portfolio
                 </Link>
 
-                {/* Mobile Menu Button */}
+
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     className="md:hidden block text-gray-900 focus:outline-none"
@@ -27,16 +27,14 @@ const Navbar = () => {
                         viewBox="0 0 20 20"
                     >
                         {isOpen ? (
-                            // X icon
+
                             <path d="M6 6L14 14M6 14L14 6" stroke="black" strokeWidth="2" strokeLinecap="round" />
                         ) : (
-                            // Menu icon
+
                             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                         )}
                     </svg>
                 </button>
-
-                {/* Nav Links */}
                 <div
                     className={`${isOpen ? "block" : "hidden"} 
                     w-full md:flex md:items-center md:w-auto transition-all duration-300 ease-in-out`}
@@ -77,7 +75,7 @@ const Navbar = () => {
                             >
                                 Work Place
                             </Link>
-                        </li>                      
+                        </li>
                     </ul>
                 </div>
             </div>

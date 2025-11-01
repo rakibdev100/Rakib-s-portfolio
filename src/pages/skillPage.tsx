@@ -5,7 +5,6 @@ const SkillPage = () => {
             <div className="w-full max-w-4xl text-center px-6">
                 <h2 className="text-3xl font-bold text-black mb-8">My Skills</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-6">
-                    {/* HTML */}
                     <div className="flex flex-col items-center p-6  bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                         <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -15,7 +14,6 @@ const SkillPage = () => {
                         <span className="text-gray-300">HTML5</span>
                     </div>
 
-                    {/* CSS */}
                     <div className="flex flex-col items-center p-6 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                         <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -25,7 +23,6 @@ const SkillPage = () => {
                         <span className="text-gray-300">CSS3</span>
                     </div>
 
-                    {/* JavaScript */}
                     <div className="flex flex-col items-center p-6 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                         <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -35,7 +32,6 @@ const SkillPage = () => {
                         <span className="text-gray-300">JavaScript</span>
                     </div>
 
-                    {/* React */}
                     <div className="flex flex-col items-center p-6 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                         <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -45,7 +41,6 @@ const SkillPage = () => {
                         <span className="text-gray-300">React.js</span>
                     </div>
 
-                    {/* Next.js */}
                     <div className="flex flex-col items-center p-6 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                         <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
@@ -55,7 +50,6 @@ const SkillPage = () => {
                         <span className="text-gray-300">Next.js</span>
                     </div>
 
-                    {/* Tailwind CSS */}
                     <div className="flex flex-col items-center p-6 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                         <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
@@ -65,7 +59,6 @@ const SkillPage = () => {
                         <span className="text-gray-300">TailwindCSS</span>
                     </div>
 
-                    {/* Node.js */}
                     <div className="flex flex-col items-center p-6 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                         <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
@@ -75,7 +68,6 @@ const SkillPage = () => {
                         <span className="text-gray-300">Node.js</span>
                     </div>
 
-                    {/* Git */}
                     <div className="flex flex-col items-center p-6 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                         <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"

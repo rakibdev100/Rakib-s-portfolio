@@ -4,7 +4,7 @@ import HeroImage from "../assets/images/rakibpro1.jpg";
 
 const Hero = () => {
     const [text, setText] = useState("");
-    const fullText = "full-stack developer_";
+    const fullText = "full-stack web developer_";
     const [index, setIndex] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
 
@@ -28,12 +28,11 @@ const Hero = () => {
     }, [index, isDeleting]);
 
     return (
-        <section className="flex flex-col-reverse items-center justify-center max-w-screen-xl px-6 mx-auto py-10 md:flex-row md:py-16">
-            {/* Text Section */}
+        <section className=" bg-blue-50 flex flex-col-reverse items-center justify-center max-w-screen-xl px-6 mx-auto py-10 mt-3 md:flex-row md:py-16">
             <div className="w-full text-center md:w-1/2 md:text-left mt-8 md:mt-0 flex flex-col justify-center min-h-[420px]">
-                <h2 className="text-4xl font-extrabold leading-tight text-gray-800 sm:text-5xl md:text-6xl">
+                <h2 className="text-4xl font-extrabold leading-tight text-gray-800">
                     Hello I'm{" "}
-                    <span className="text-blue-600">Rakibul Hasan</span>{" "}
+                    <h3 className="text-blue-600">Rakibul Hasan{" "}</h3>
                     <span className="text-pink-900 ml-2 border-r-2 border-blue-500 animate-pulse">
                         {text}
                     </span>

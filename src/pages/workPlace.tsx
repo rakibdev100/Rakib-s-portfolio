@@ -6,7 +6,6 @@ const WorkPlacePage = () => {
   return (
     <section className="px-4 py-12 sm:px-6 lg:px-8  bg-blue-100">
       <div className="mx-auto max-w-7xl">
-        {/* Section Header */}
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             My Work Place
@@ -16,9 +15,7 @@ const WorkPlacePage = () => {
           </p>
         </div>
 
-        {/* Projects Grid */}
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Project 1 */}
           <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
             <div className=" overflow-hidden bg-blue-500">
               <img
@@ -64,7 +61,6 @@ const WorkPlacePage = () => {
             </div>
           </div>
 
-          {/* Project 2 */}
           <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
             <div className=" overflow-hidden bg-green-500">
               <img
@@ -110,7 +106,6 @@ const WorkPlacePage = () => {
             </div>
           </div>
 
-          {/* Project 3 */}
           <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
             <div className="overflow-hidden bg-purple-500">
               <img
@@ -156,8 +151,6 @@ const WorkPlacePage = () => {
             </div>
           </div>
         </div>
-
-        {/* View More Button */}
         <div className="mt-12 text-center">
           <a
             href="#"
