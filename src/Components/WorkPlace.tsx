@@ -8,19 +8,19 @@ const WorkPlace = () => {
       <div className="mx-auto max-w-7xl">
 
         <div className="mb-12 text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className=" font-extrabold text-4xl bg-gradient-to-r from-amber-700 via-fuchsia-800 to-red-600 bg-clip-text text-transparent">
             My Work Place
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
+          <p className="mx-auto mt-3 max-w-2xl text-xl bg-gradient-to-r from-amber-700 via-fuchsia-800 to-red-600 bg-clip-text text-transparent sm:mt-4">
             Check out some of our recent work and case studies.
           </p>
         </div>
 
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Project 1 */}
-          <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:-translate-y-2 hover:border-indigo-600 border-2 border-transparent 
+
+          <div className="overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:-translate-y-2 hover:border-purple-800 border-2 border-transparent 
                ease-in-out group">
-            <div className="overflow-hidden bg-blue-500">
+            <div className="overflow-hidden bg-purple-800">
               <img
                 src={Project1}
                 alt="Project 1"
@@ -64,7 +64,7 @@ const WorkPlace = () => {
             </div>
           </div>
 
-          <div className="overflow-hidden rounded-lg bg-white shadow-md hover:-translate-y-2 hover:border-indigo-600 border-2 border-transparent 
+          <div className="overflow-hidden rounded-lg bg-white shadow-md hover:-translate-y-2 hover:border-purple-800 border-2 border-transparent 
               transition-all duration-300 ease-in-out group">
             <div className=" overflow-hidden bg-green-500">
               <img
@@ -110,7 +110,7 @@ const WorkPlace = () => {
             </div>
           </div>
 
-          <div className="overflow-hidden rounded-lg bg-white shadow-md hover:-translate-y-2 hover:border-indigo-600 border-2 border-transparent 
+          <div className="overflow-hidden rounded-lg bg-white shadow-md hover:-translate-y-2 hover:border-purple-800 border-2 border-transparent 
               transition-all duration-300 ease-in-out group">
             <div className="overflow-hidden bg-purple-500">
               <img

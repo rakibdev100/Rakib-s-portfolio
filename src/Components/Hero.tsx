@@ -30,10 +30,12 @@ const Hero = () => {
     return (
         <section className="flex flex-col-reverse items-center justify-center max-w-screen-xl px-6 mx-auto py-10 mt-3 md:flex-row md:py-16">
             <div className="w-full text-center md:w-1/2 md:text-left mt-8 md:mt-0 flex flex-col justify-center min-h-[420px]">
-                <h2 className="text-4xl font-extrabold leading-tight text-gray-800">
+                <h2 className="text-4xl font-extrabold leading-tight bg-gradient-to-r from-red-900 via-fuchsia-400 to-orange-300 bg-clip-text text-transparent">
                     Hello I'm{" "}
-                    <h3 className="text-blue-600">Rakibul Hasan{" "}</h3>
-                    <span className="text-pink-900 ml-2 border-r-2 border-blue-500 animate-pulse">
+                    <h3 className="text-4xl font-extrabold bg-gradient-to-r from-purple-900 via-fuchsia-600 to-red-600 bg-clip-text text-transparent">
+                        Rakibul Hasan
+                    </h3>
+                    <span className="bg-gradient-to-r from-purple-900 via-fuchsia-800 to-red-500 bg-clip-text font-medium text-2xl border-r-2 border-blue-500 animate-pulse">
                         {text}
                     </span>
                 </h2>
@@ -47,16 +49,13 @@ const Hero = () => {
                 <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3 mt-6">
                     <Link
                         to="/about"
-                        className="w-full sm:w-auto px-8 py-3 text-lg font-semibold text-white bg-blue-500 rounded-md shadow hover:bg-blue-600 transition-all duration-200"
+                        className="w-full sm:w-auto px-8 py-3 text-lg font-semibold
+                         text-white rounded-md bg-gradient-to-r from-purple-500 via-purple-400 
+                         hover:from-purple-900 hover:via-fuchsia-800 to-fuchsia-400
+                         transition-all duration-500 shadow-lg"
                     >
                         About Me
                     </Link>
-                    <a
-                        href="#projects"
-                        className="w-full sm:w-auto px-8 py-3 text-lg font-semibold text-blue-500 bg-white border border-gray-300 rounded-md shadow hover:text-blue-600 transition-all duration-200"
-                    >
-                        Projects
-                    </a>
                 </div>
             </div>
 

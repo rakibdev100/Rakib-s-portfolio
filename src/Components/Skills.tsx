@@ -3,7 +3,7 @@ const Skills = () => {
     return (
         <section id="skills" className="flex items-center justify-center py-12  bg-blue-50">
             <div className="w-full max-w-4xl text-center px-6">
-                <h2 className="text-3xl font-bold text-black mb-8">My Skills</h2>
+                <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-amber-700 via-fuchsia-800 to-red-600 bg-clip-text text-transparent">My Skills</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-6">
 
                     <div className="flex flex-col items-center p-6  bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-500 hover:-translate-y-2 hover:border-indigo-700 border-2 border-transparent 

@@ -38,7 +38,7 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="px-6 lg:px-16 py-24 bg-gradient-to-b from-blue-50 to-indigo-50">
       <div className="max-w-6xl mx-auto text-center space-y-12">
-        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8">
+        <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-amber-700 via-fuchsia-800 to-red-600 bg-clip-text text-transparent mb-10">
           Client Testimonials
         </h2>
 
@@ -47,7 +47,7 @@ const Testimonials = () => {
             <div
               key={t.name}
               className="bg-white rounded-2xl p-6 shadow-md flex flex-col items-center space-y-4 
-              hover:shadow-2xl hover:-translate-y-2 hover:border-indigo-300 border-2 border-transparent 
+              hover:shadow-2xl hover:-translate-y-2 hover:border-purple-600 border-2 border-transparent 
               transition-all duration-300 ease-in-out group"
             >
               <div className="relative">
@@ -76,7 +76,7 @@ const Testimonials = () => {
       </div>
       <div className="mt-20 text-center">
         <button
-          className="inline-flex items-center border border-transparent px-6 py-3  font-medium text-black shadow-sm text-2xl"
+          className="inline-flex items-center border border-transparent px-6 py-3  font-medium bg-gradient-to-r from-amber-700 via-fuchsia-800 to-red-600 bg-clip-text text-transparent shadow-sm text-2xl"
         >
           Contact me
         </button>
@@ -202,9 +202,11 @@ const Testimonials = () => {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none 
+            className="text-white bg-gradient-to-r from-purple-500 via-purple-400 
+                         hover:from-purple-900 hover:via-fuchsia-800 to-fuchsia-400
+                         transition-all duration-500 shadow-lg hover:bg-blue-800 focus:ring-4 focus:outline-none 
       focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-8 py-2.5 
-      text-center transition duration-200"
+      text-center"
           >
             Submit
           </button>

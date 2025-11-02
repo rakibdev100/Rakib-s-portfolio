@@ -10,7 +10,7 @@ const Navbar = () => {
 
                 <Link
                     to="/"
-                    className="text-2xl font-bold text-blue-700 hover:text-blue-500 transition-colors duration-200"
+                    className="text-2xl font-bold text-purple-900 hover:text-red-800 transition-colors duration-200"
                 >
                     Portfolio
                 </Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
                         <li>
                             <Link
                                 to="/"
-                                className="block py-2 md:py-0 hover:text-blue-500 text-blue-600 transition-colors"
+                                className="block py-2 md:py-0 hover:text-red-800 text-purple-900 transition-colors"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Home
@@ -52,7 +52,7 @@ const Navbar = () => {
                         <li>
                             <Link
                                 to="/about"
-                                className="block py-2 md:py-0 hover:text-blue-500 transition-colors"
+                                className=" text-purple-900 block py-2 md:py-0 hover:text-red-800 transition-colors"
                                 onClick={() => setIsOpen(false)}
                             >
                                 About
@@ -61,7 +61,7 @@ const Navbar = () => {
                         <li>
                             <Link
                                 to="/skills"
-                                className="block py-2 md:py-0 hover:text-blue-500 transition-colors"
+                                className=" text-purple-900 block py-2 md:py-0 hover:text-red-800 transition-colors"
                                 onClick={() => setIsOpen(false)}
                             >
                                 My Skills
@@ -69,11 +69,11 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link
-                                to="/work-place"
-                                className="block py-2 md:py-0 hover:text-blue-500 transition-colors"
+                                to="https://github.com/rakibdev100"
+                                className=" text-purple-900 block py-2 md:py-0 hover:text-red-800 transition-colors"
                                 onClick={() => setIsOpen(false)}
                             >
-                                Work Place
+                                My Github
                             </Link>
                         </li>
                     </ul>
